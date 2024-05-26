@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#55001b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Header */
+header{
+    height: 300px;
+    max-width: 100%;
+    background-image: url(imagenes/design-de-fundo-de-jogo-de-futebol-modelo-de-design-de-fundo-de-copa-de-futebol-2022-ilustracao-vetorial_29865-4234.webp);
+    background-size: cover;
+}
+#info{
+    background-size: cover;
+}
+.contenedorlogo{
+    font-weight: 200 normal;
+}
+#titulo a{
+    color: aliceblue;
+    width: 30%;
+    margin-left: 75%;
+    color:alicebue;
+    font-size: 90px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#logo1{
+    margin-top: -110px;
+    margin-left: 8%;
+}
+.logo{
+    border: 1px solid #000;
+    background-color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+
+
+/* contenedor presentacion */
+#info {
+    max-height: 100%;
+    width: 100%;
+}
+#info h2 {
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    text-align: center;
+    font-size: 41px;
+    text-shadow: 2px 2px 3px #575757;
+}
+#relleno {
+    display: flex;
+    max-height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+#relleno img {
+    width: 1000px;
+
+}
+
+
+
+/* ---------------- Navegacion ------------------- */
+#naveg {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color:  #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#BarraNav {
+    width: 100%;
+    background-color: #ffffff;
+}
+.nav{
+    margin: 0 2.3%;
+    background-color:  #ffffff;
+    width: 15%;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #55001b;
+    transition: 0.4s; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nav:hover {
+    background-color: #55001b;
+    color: aliceblue;
+    transform: scaleY(1.1);
+    transition: 0.1s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 6px 4px 5px #000;
+}
+
+
+/* contenido */
+#contenido{
+    padding: 0 10%;
+    width: 80%;
+    color: #ffffff;
+}
+#titulo1 {
+    font-size: 60px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+#subtitulo{
+    margin: 5%;
+    text-align: center;
+}
+#foto {
+    margin-top: 5%;
+    padding: 0 10%;
+    width: 80%;   
+    display: flex;
+    justify-content: center;
+} 
+#foto img{
+    width: 800px;
+    border-radius: 30px;
+}
+#fase_de_grupos{
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 5%;
+}
+#fase_de_grupos h1{
+    padding: 5% 0;
+}
+#grupos{
+    margin: 0 5%;
+    width: 90%;
+    color: #55001b;
+}
+.grupos1{
+    margin: 0 5%;
+    padding: 2% 0;
+    width: 600px;
+    background-color:#ffffff;
+    border-radius: 35px;
+    padding-left: 15px;
+    text-align: left;
+}
+.grupos2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#grupos ul{
+    list-style: none;
+}
+#final{
+    margin-top: 80px;
+}
+#final h1{
+    font-size: 40px;
+}
+#fotocopa{
+    width: 80%;
+    padding: 0 10%;
+}
+#fotocopa img{
+    width: 700px;
+}
+.finalmundial{
+    width: 80%;
+    margin: 2% 10%;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+
+/* Footer */
+footer{
+    background-color:#ffffff;
+    text-align: center;
+    color: #55001b;
+    bottom: 0;
+    width: 100%;
+    margin-top: 150px;
+}
+#Titulo_footer{
+    justify-content: center;
+    display: flex;
+    padding-top: 22px;
+}
+#Titulo_footer h1{
+    padding-top: 24px;
+    font-size: 32px;
+}
+#footerI img{
+    padding-top: 5px;
+    width:120px;
+}
+#grupo1{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: row;
+}
+#grupo1 h1{
+    font-size: 35px;
+}
+#grupo1 p{
+    font-size: 19px;
+}
+#parte5{
+    width: 65%;   
+    display: flex;
+}
+#parte{
+    width: 50%;
+}
+#parte p{
+    padding: 10px 0;
+}
+#parte h1{
+    margin-bottom: 29px;
+}
+#parte h2{
+    margin-bottom: 20px;
+}
+#red_social{
+    font-size: 35px;
+    margin: 10px;
+}
+#red_social a{
+    padding: 5px;
+    cursor: pointer;
+}
+#parte1{
+    width: 50%;
+}
+#parte1 h3{
+    padding-top: 45px;
+    font-size: 20px;
+}
+#parte2{
+    height:45%;
+}
+#grupo2{
+    font-size: 20px;
+}
+#parte3{
+    width: 25%;
+    padding: 0 2.5%;
+}
+#parte4{
+    height: 45%;
+}
+
+
+/* Media query */
+@media (max-width: 768px){
+    #logo1{
+        margin-top: -100px;
+        margin-left: 8%;
+    }
+    #titulo a{
+        margin-left: 70%;
+        font-size: 70px;
+    }
+    .nav{
+        margin: 0 2%;
+        font-size: 15px;
+    }
+    .nav:hover {
+        font-size: 18px;
+    }
+    #info h2{
+        padding-top: 85px;
+        font-size: 28px;
+    }
+    #relleno img{
+        width: 100%;
+    }
+    #foto img{
+        width: 600px;
+        border-radius: 30px;
+    }
+    #fotocopa img{
+        width: 500px;
+
+    }
+    #Titulo_footer h1{
+        font-size: 27px;
+    }
+    #grupo1{
+        display: block;
+    }
+    #parte5{
+        width: 100%;
+    }
+    #parte1 h3{
+        padding-top: 55px;
+    }
+    #parte p{
+        padding: 20px 0;
+    }
+    #parte3{
+        padding: 5% 0%;
+        width: 100%;
+        display: flex;
+    }
+    #parte4{
+        max-width: 45%;
+        padding: 0 2.5%;
+    }
+    #parte2{
+        max-width: 45%;
+        padding: 0 2.5%;
+    }
+}

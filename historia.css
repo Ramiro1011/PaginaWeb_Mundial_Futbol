@@ -1,0 +1,1137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #55001b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Header */
+header {
+    height: 300px;
+    max-width: 100%;
+    background-image: url(imagenes/design-de-fundo-de-jogo-de-futebol-modelo-de-design-de-fundo-de-copa-de-futebol-2022-ilustracao-vetorial_29865-4234.webp);
+    background-size: cover;
+}
+.contenedorlogo {
+    font-weight: 200 normal;
+}
+#titulo a {
+    color: aliceblue;
+    width: 30%;
+    margin-left: 75%;
+    color: alicebue;
+    font-size: 90px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#logo1 {
+    margin-top: -110px;
+    margin-left: 8%;
+}
+.logo {
+    border: 1px solid #000;
+    background-color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+
+/* contenedor presentacion */
+#info {
+    max-height: 100%;
+    max-width: 100%;
+}
+#info h2 {
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    text-align: center;
+    font-size: 41px;
+    text-shadow: 2px 2px 3px #575757;
+}
+#relleno {
+    display: flex;
+    max-height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+#relleno img {
+    width: 1000px;
+
+}
+
+
+/* ---------------- Navegacion ------------------- */
+#naveg {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#BarraNav {
+    margin-left: 0px;
+    max-width: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.botones {
+    width: 100%;
+    background: #ffff;
+}
+#ul1{
+    max-width: 100%;
+}
+.nav1 {
+    margin: 0 2.3%;
+    background-color: #ffffff;
+    width: 15%;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #55001b;
+    transition: 0.4s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav1:hover {
+    background-color: #55001b;
+    color: aliceblue;
+    transform: scaleY(1.1);
+    transition: 0.1s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 6px 4px 5px #000;
+}
+.nav {
+    background-color: #ffffff;
+    width: 18%;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #55001b;
+    transition: 0.4s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav:hover {
+    background-color: #55001b;
+    color: aliceblue;
+    transform: scaleY(1.1);
+    transition: 0.1s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 6px 4px 5px #000;
+}
+/* Seccion historia botones de navegacion */
+
+.historia {
+    margin: auto;
+    max-width: 90%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.categorias {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.navihistoria .navh {
+    list-style: none;
+    flex-direction: row;
+    float: right;
+}
+
+.boton {
+    background-color: #ffffff;
+    width: 24.5%;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #0e0b0b;
+    transition: 0.4s;
+}
+
+
+.actual h3 {
+    color: #e7e42c;
+}
+
+
+.boton:hover {
+    background-color: rgb(112, 13, 13);
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 6px 4px 5px #000;
+    border-radius: 10px;
+}
+
+/* Seccion historia contenido goles */
+.contenido {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+#goles .goles h2 {
+    font-size: 50px;
+    margin-bottom: 200px;
+    background: aliceblue;
+    color: #55001b;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.container {
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.textovisible {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: -320px;
+}
+
+.textovisible p {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.textooculto {
+    margin-left: 35%;
+}
+
+.leermas {
+    background-color: #af784c;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 35%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leermas:hover {
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2.05s;
+}
+
+
+.ocultarText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 65%;
+    display: none;
+}
+
+.mostrarText {
+    display: block;
+}
+
+
+.textovisible {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 65%;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: -320px;
+}
+
+
+.leermas2 {
+    background-color: #af784c;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 35%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leermas2:hover {
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2.05s;
+}
+
+
+.ocultarText2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 65%;
+    display: none;
+}
+
+.mostrarText2 {
+    display: block;
+}
+
+.leermas3 {
+    background-color: #af784c;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 35%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leermas3:hover {
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2.05s;
+}
+
+
+.ocultarText3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 65%;
+    display: none;
+}
+
+.mostrarText3 {
+    display: block;
+}
+
+.leermas4 {
+    background-color: #af784c;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 35%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leermas4:hover {
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2.05s;
+}
+
+
+.ocultarText4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 65%;
+    display: none;
+}
+
+.mostrarText4 {
+    display: block;
+}
+
+/* Fin seccion goles */
+
+/* Secciuon historia curiosidades */
+
+.curiosidades{
+    background: #55001b;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 52.5%;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #000; 
+}
+
+
+.datos{
+    font-size: 20px;
+    color: aliceblue;
+    width: 40%;
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.titulocuru{
+    color: aliceblue;
+    padding: 2%;
+    text-decoration: underline;
+}
+.imgcuru{
+    padding: 4%;
+    width: 35%;
+    margin-top: -40%;
+    margin-left: 55%;
+}
+
+.curiosidades:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+.curiosidades2{
+    background: #55001b;
+    width: 40%;
+    margin-top: -17.9%;
+    margin-left: 7.5%;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #000; 
+}
+
+
+.datos2{
+    font-size: 20px;
+    color: aliceblue;
+    width: 40%;
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.titulocuru2{
+    color: aliceblue;
+    padding: 2%;
+    text-decoration: underline;
+}
+.imgcuru2{
+    padding: 4%;
+    width: 35%;
+    margin-top: -40%;
+    margin-left: 55%;
+}
+
+.curiosidades2:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.curiosidades3{
+    background: #55001b;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #000; 
+}
+
+
+.datos3{
+    font-size: 20px;
+    color: aliceblue;
+    width: 40%;
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.titulocuru3{
+    color: aliceblue;
+    padding: 2%;
+    text-decoration: underline;
+}
+.imgcuru3{
+    padding: 4%;
+    width: 35%;
+    margin-top: -40%;
+    margin-left: 55%;
+}
+
+.curiosidades3:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+.curiosidades4{
+    background: #55001b;
+    width: 40%;
+    margin-top: -17.7%;
+    margin-left: 52.5%;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #000; 
+}
+
+
+.datos4{
+    font-size: 20px;
+    color: aliceblue;
+    width: 40%;
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.titulocuru4{
+    color: aliceblue;
+    padding: 2%;
+    text-decoration: underline;
+}
+.imgcuru4{
+    padding: 4%;
+    width: 35%;
+    margin-top: -40%;
+    margin-left: 55%;
+}
+
+.curiosidades4:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+/* Fin seccion curisosidades */
+
+
+/* Seccion historia jugadores */
+
+
+.jugadores {
+    margin-top: 9%;
+}
+
+.frank{
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.zizu{
+    margin-top: 5%;
+    border-radius: 10px;
+}
+/*  Galeria Diego */
+
+.galeriajugadores {
+    width: 98%;
+    display: flex;
+}
+
+.galeriajugadores .menufotos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.galeriajugadores .menufotos {
+    max-width: 40%;
+    width: 55%;
+    height: 350px;
+    margin-left: 51%;
+}
+
+.galeriajugadores .galeriamenu {
+    list-style: none;
+}
+
+.menufotos {
+    display: flex;
+    overflow: hidden;
+}
+
+.menufotos img {
+    background: #000;
+    width: 750px;
+    height: 98%;
+}
+
+.galeriamenu img {
+    margin-left: 20px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #000;
+}
+
+.galeriamenu img:hover {
+    border: none;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    border: 2px solid #000;
+
+}
+
+/* galeria del Pele */
+
+.galeriajugadores2 {
+    margin-top: 10%;
+    width: 98%;
+    display: flex;
+}
+
+.galeriajugadores2 .menufotos2 {
+    border-radius: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+}
+
+.galeriajugadores2 .menufotos2 {
+    max-width: 40%;
+    width: 55%;
+    height: 350px;
+    margin-left: 51%;
+}
+
+.galeriajugadores2 .galeriamenu2 {
+    list-style: none;
+}
+
+.menufotos2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.menufotos2 img {
+    background: #000;
+    width: 750px;
+    height: 98%;
+}
+
+.galeriamenu2 img {
+    margin-left: 20px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #000;
+}
+
+.galeriamenu2 img:hover {
+    border: none;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    border: 2px solid #000;
+
+}
+
+/* Historia Diego */
+
+.histojugadores {
+    max-width: 90%;
+    width: 38%;
+    margin-top: -24%;
+    margin-left: 10%;
+}
+
+
+.nombrejuga {
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    text-decoration: underline;
+    margin-top: 3%;
+    font-size: 40px;
+}
+
+.bibliografia {
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 3%;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 3px solid #000
+}
+
+.textolargo {
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: -36%;
+    margin-left: 105%;
+    padding: 38px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 20px;
+    border: 3px solid #000
+}
+
+.diegote {
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.bibliografia:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.textolargo:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    margin-left: 106%;
+}
+
+
+/* historia Pele */
+
+.histojugadores2 {
+    max-width: 90%;
+    width: 38%;
+    margin-top: -24%;
+    margin-left: 10%;
+}
+
+
+.nombrejuga2 {
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    text-decoration: underline;
+    margin-top: 3%;
+    font-size: 40px;
+}
+
+.bibliografia2 {
+    margin-top: 3%;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #000
+}
+
+.textolargo2 {
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: -37.8%;
+    margin-left: 105%;
+    padding: 33px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 3px solid #000
+}
+
+
+.pele {
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.bibliografia2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.textolargo2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    margin-left: 106%;
+}
+/* Historia Franz B */
+
+.textolargo3 {
+    margin-top: -36.8%;
+    margin-left: 105%;
+    padding: 39px;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 3px solid #000
+}
+
+.textolargo3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    margin-left: 106%;
+}
+
+/* Historia Zidane */
+
+.bibliografia4 {
+    margin-top: 3%;
+    font-size: 20px;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    padding: 16px;
+    border-radius: 15px;
+    border: 3px solid #000
+}
+
+.bibliografia4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.textolargo4{
+    margin-top: -40%;
+    margin-left: 105%;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    padding: 40px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 3px solid #000
+}
+
+.textolargo4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    margin-left: 106%;
+}
+/* Seccion historia Galeria*/
+
+
+.carrusel {
+    width: 98%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 1630px;
+}
+
+.carrusel .deslizar-fotos {
+    width: 95%;
+    height: 615px;
+    margin: auto;
+}
+
+.deslizar-fotos {
+    display: flex;
+    overflow: hidden;
+}
+
+.deslizar-fotos img {
+    background: #000;
+    width: 1630px;
+    height: 98%;
+    border-radius: 20px;
+}
+
+.deslizar-menu img {
+    margin-right: 25px;
+    display: block;
+    box-sizing: border-box;
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.deslizar-menu img:hover {
+    border: none;
+    transform: scale(1.8);
+    transition-duration: 0.5s;
+    border: 2px solid #000;
+
+}
+
+/* botones next page */
+
+.nextpage {
+    width: 8%;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+
+.previous:hover {
+    background-color: #55001b;
+    color: black;
+}
+
+.next:hover {
+    background-color: #55001b;
+    color: black;
+}
+
+.previous {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 0px 10px;
+}
+
+.next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #55001b;
+    border-radius: 10px 0px;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    color: #55001b;
+    bottom: 0;
+    width: 100%;
+    margin-top: 150px;
+}
+
+#Titulo_footer {
+    justify-content: center;
+    display: flex;
+    padding: 25px 0;
+
+}
+
+#Titulo_footer h1 {
+    padding-top: 24px;
+
+}
+
+#footerI img {
+    padding-top: 5px;
+    width: 120px;
+}
+
+#grupo1 {
+    padding: auto;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+#parte5 {
+    width: 65%;
+    display: flex;
+}
+
+#parte {
+    width: 50%;
+}
+
+#parte p {
+    padding: 10px 0;
+}
+
+#parte h1 {
+    margin-bottom: 29px;
+
+}
+
+#parte h2 {
+    margin-bottom: 20px;
+}
+
+#red_social {
+    font-size: 35px;
+    margin: 10px;
+}
+
+#red_social a {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#parte1 {
+    width: 50%;
+}
+
+#parte1 h3 {
+    padding-top: 40px;
+}
+
+#parte2 {
+    height: 50%;
+}
+
+#grupo2 {
+    font-size: 20px;
+}
+
+#parte3 {
+    width: 25%;
+    padding: 0 2.5%;
+}
+
+#parte4 {
+    height: 30%;
+}
+
+
+
+/* Media query */
+@media (max-width: 768px) {
+    #logo1{
+        margin-top: -100px;
+        margin-left: 8%;
+    }
+    #titulo a{
+        margin-left: 70%;
+        font-size: 70px;
+    }
+    .nav1{
+        margin: 0 2%;
+        font-size: 15px;
+    }
+    .nav1:hover {
+        font-size: 18px;
+    }
+    #info h2{
+        padding-top: 85px;
+        font-size: 28px;
+    }
+    #relleno img{
+        width: 100%;
+    }
+    .botones {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: aliceblue;
+    }
+    .nav {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .nav:hover {
+        font-size: 18px;
+    }
+
+    #info h2 {
+        padding-top: 85px;
+        font-size: 28px;
+    }
+
+    #relleno img {
+        width: 100%;
+    }
+
+    #Titulo_footer h1 {
+        font-size: 27px;
+    }
+    
+    .historia {
+        margin-left: 10%;
+        width: 70%;
+        margin: auto;
+    }
+    
+    .navihistoria{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .boton {
+        background-color: #ffffff;
+        width: 100%;
+        height: 100px;
+        margin-top: 2%;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #0e0b0b;
+        transition: 0.4s;
+    }
+
+    .contenido{
+        max-width: 70%;
+    }
+
+    .container {
+        max-width: 100%;
+        margin-bottom: 100px;
+    
+    }
+    
+    .textovisible {
+        max-width: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    
+    .textooculto {
+        margin-left: 10%;
+    }
+    
+
+    #grupo1 {
+        display: block;
+    }
+
+    #parte5 {
+        width: 100%;
+    }
+
+    #parte1 h3 {
+        padding-top: 55px;
+    }
+
+    #parte p {
+        padding: 20px 0;
+    }
+
+    #parte3 {
+        padding: 5% 0%;
+        width: 100%;
+        display: flex;
+    }
+
+    #parte4 {
+        max-width: 45%;
+        padding: 0 2.5%;
+    }
+
+    #parte2 {
+        max-width: 45%;
+        padding: 0 2.5%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header #titulo {
+        font-size: 25px;
+    }
+
+    .naveg {
+        width: 400px;
+    }
+
+    .deslizar-fotos {
+        overflow: auto;
+    }
+
+    .deslizar-menu {
+        display: none;
+    }
+
+    .deslizar-fotos {
+        width: 450px;
+        height: 400px;
+    }
+}
